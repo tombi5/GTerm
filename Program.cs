@@ -177,6 +177,7 @@ namespace GTerm
                                 Console.Clear();
 
                             _ = Listener.WriteMessage(input);
+                            Console.WriteLine("\r");
                         }
                         break;
 
